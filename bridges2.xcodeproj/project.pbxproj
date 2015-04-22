@@ -1924,6 +1924,11 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0460;
+				TargetAttributes = {
+					CE6D65D015EAC5FB00C7EDD7 = {
+						DevelopmentTeam = 8G9SJKMB6B;
+					};
+				};
 			};
 			buildConfigurationList = CE6D65CB15EAC5FB00C7EDD7 /* Build configuration list for PBXProject "bridges2" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -2392,6 +2397,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Doe Pics Hit Inc";
 				COPY_PHASE_STRIP = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -2411,6 +2417,7 @@
 					"-all_load",
 				);
 				PRODUCT_NAME = "7 Bridges";
+				PROVISIONING_PROFILE = "1b7403aa-0900-49cd-a17a-20b2fc661cc7";
 				USER_HEADER_SEARCH_PATHS = "\"bridges2/libs\"";
 				WRAPPER_EXTENSION = app;
 			};
@@ -2420,6 +2427,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Doe Pics Hit Inc";
 				COPY_PHASE_STRIP = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -2438,6 +2446,7 @@
 					"-all_load",
 				);
 				PRODUCT_NAME = "7 Bridges";
+				PROVISIONING_PROFILE = "1b7403aa-0900-49cd-a17a-20b2fc661cc7";
 				USER_HEADER_SEARCH_PATHS = "\"bridges2/libs\"";
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;

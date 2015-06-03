@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		38AC12CBAF6D377687C5A85F /* BuddyBuildSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92CCA6E25E8D21A2235B04AC /* BuddyBuildSDK.framework */; };
+		8B338E4AFC894115B3E6A657 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE00B7D0C0A56EF7C5F47201 /* AssetsLibrary.framework */; };
 		CE005330164134E300A99DFD /* hamilton.json in Resources */ = {isa = PBXBuildFile; fileRef = CE00532F164134E300A99DFD /* hamilton.json */; };
 		CE00533516413AA000A99DFD /* color_out.json in Resources */ = {isa = PBXBuildFile; fileRef = CE00533416413AA000A99DFD /* color_out.json */; };
 		CE005337164148F800A99DFD /* triangle_jump.json in Resources */ = {isa = PBXBuildFile; fileRef = CE005336164148F800A99DFD /* triangle_jump.json */; };
@@ -394,6 +396,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		92CCA6E25E8D21A2235B04AC /* BuddyBuildSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BuddyBuildSDK.framework; sourceTree = "<group>"; };
 		CE00532F164134E300A99DFD /* hamilton.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = hamilton.json; sourceTree = "<group>"; };
 		CE00533416413AA000A99DFD /* color_out.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = color_out.json; sourceTree = "<group>"; };
 		CE005336164148F800A99DFD /* triangle_jump.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = triangle_jump.json; sourceTree = "<group>"; };
@@ -991,6 +994,7 @@
 		CEF30E73166E25BF00E69E3C /* NewLevel.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = NewLevel.m4a; sourceTree = "<group>"; };
 		CEF59A191670DA720091F94D /* confetti.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = confetti.png; sourceTree = "<group>"; };
 		CEF59A1B1670DA860091F94D /* confetti@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "confetti@2x.png"; sourceTree = "<group>"; };
+		EE00B7D0C0A56EF7C5F47201 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1007,6 +1011,8 @@
 				CE6D65E215EAC5FB00C7EDD7 /* Foundation.framework in Frameworks */,
 				CE6D65E415EAC5FB00C7EDD7 /* CoreGraphics.framework in Frameworks */,
 				CE6D65E615EAC5FB00C7EDD7 /* GameKit.framework in Frameworks */,
+				38AC12CBAF6D377687C5A85F /* BuddyBuildSDK.framework in Frameworks */,
+				8B338E4AFC894115B3E6A657 /* AssetsLibrary.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1083,6 +1089,8 @@
 				CE6D65E115EAC5FB00C7EDD7 /* Foundation.framework */,
 				CE6D65E315EAC5FB00C7EDD7 /* CoreGraphics.framework */,
 				CE6D65E515EAC5FB00C7EDD7 /* GameKit.framework */,
+				92CCA6E25E8D21A2235B04AC /* BuddyBuildSDK.framework */,
+				EE00B7D0C0A56EF7C5F47201 /* AssetsLibrary.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -2403,6 +2411,7 @@
 					"$(inherited)",
 					"\"$(SRCROOT)\"",
 					"\"$(SRCROOT)/Frameworks\"",
+					"$(PROJECT_DIR)",
 				);
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -2433,6 +2442,7 @@
 					"$(inherited)",
 					"\"$(SRCROOT)\"",
 					"\"$(SRCROOT)/Frameworks\"",
+					"$(PROJECT_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = bridges2/Prefix.pch;

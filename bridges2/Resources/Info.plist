@@ -79,5 +79,14 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>bb-buddybuild.com.zackgrossbart.7-Bridges</string>
+			</array>
+		</dict>
+	</array>
 </dict>
 </plist>
